@@ -1,0 +1,312 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Halant&family=Poppins:wght@900&display=swap');*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    background-image: url(https://restfood.onlywebcoding.com.ua/images/bg-header.png
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.container{
+
+    position: relative;
+    width: 100%;
+    height: 100bh;
+}
+.nav1{
+    display: flex;
+    width: 100%;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: space-between;
+background-color: rgba(0, 0, 0, 0.327);
+margin-left: 0;
+top: 0;
+position: fixed;
+z-index: 100;
+}
+.nav1 .logo{
+
+    width: 120px;
+}
+.nav1 ul li{
+display: inline-block;
+margin: 10px 20px;
+}
+.nav1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* pseudo class to get special effect in mouse hover 
+syntax
+
+selector:pseduo-class-name{property:value}
+
+*/
+.nav1 ul li a:hover{
+    color: yellow;
+}
+h1{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+#home{
+    margin: 1rem 0 1.4rem;
+    padding: 85px 85px 350px 85px ;
+}
+.para{
+    width: 800px;
+}
+
+#home a{
+    background-color: #ffce00;
+    padding: 10px 18px;
+    text-decoration:none;
+    color:black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+ #about{
+        background-color: black;
+        box-sizing: border-box;
+        overflow-y:auto ;
+        padding-bottom: 100px;
+    }
+
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 35px;
+
+}
+.heading span{
+    font-size: 22px;
+    color: violet;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-left: 8%;
+    margin-top: 7%;
+    margin-right: 8%;
+
+}
+.about-img img{
+    width: 65%;
+    border-radius: 8px;
+    
+}
+.about-text{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+}
+.info{
+    margin: 1rem 0 1.4rem;
+
+}
+.info .info-b{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+
+}
+.info .info-b span{
+    font-weight: 400;
+    margin-left: 10px;
+
+}
+.advantage.flex-row{
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+    display: flex;
+}
+.advantage.flex-row img {
+    margin-bottom: 5px;
+  }
+  .advantage.flex-row .l{
+    padding-left: 50px;
+  }
+
+  #chef .wrapper.flex-row {
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .wrapper.flex-row .chefs-item {
+    width: calc(25% - 20px);
+    margin-bottom: 10px;
+  }
+  
+  .wrapper.flex-row .chefs-item img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .wrapper.flex-row .chefs-item .about-chefs {
+    text-align: center;
+  }
+  
+  .wrapper.flex-row .chefs-item .about-chefs h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .wrapper.flex-row .chefs-item .about-chefs p {
+    margin-bottom: 20px;
+  }
+  
+  .about-chefs .chef-social {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .chef-social{
+    list-style: none;
+  
+  }
+  .about-chefs .chef-social li {
+    float: left;
+    margin-right: 20px;
+  }
+  .about-chefs .chef-social li a {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .title-center {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+  }
+  #chef{
+    background-color: black;
+    padding-top: 4%;
+
+}
+.cff{
+    margin-left: 8%;
+    margin-top: 1%;
+    margin-right:8%;
+}
+#offer {
+    background-image: url('https://restfood.onlywebcoding.com.ua/images/bg-offer.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #offer .ht {
+    padding-top: 20px;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+  }
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 10px;
+}
+.wrapper .btn.booking-scroll{
+    background-color: #ffce00;
+    padding: 10px 18px;
+    text-decoration:none;
+    color:black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+}
+h2{
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+#gallery{
+  background-color: black;
+ padding-bottom: 20px;
+  padding-left: 100px;
+  
+
+}
+#gallery .title-center{
+  padding-top: 50px;
+}
+#gallery .ga{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.ga img{
+  width: 400px;
+  margin: 10px;
+}
+
+#contact {
+  padding-top: 100px;
+}
+
+.contacts {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  display: flex;
+}
+
+.contacts {
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.contacts h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.contacts h3 i {
+  margin-right: 20px;
+}
+.copyright {
+  padding: 30px 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 12px;
+}
+.phone{
+  color: white;
+  text-decoration: none;
+}
+i{
+  color: #ffce00;
+}
+.title-center{
+  padding-top: 20px;
+}
+.con-bx{
+  background-color:rgba(0, 0, 0, 0.501);
+  margin: 150px;
+}
